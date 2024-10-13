@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/blue_border"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TaskHeading"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/blue"
+                android:paddingTop="10dp"
+                android:text="@string/tasks"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/taskName"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="200"
+                android:padding="10dp"
+                android:text="@string/task_name"
+                android:textColor="#09A2AB"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/taskDes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:maxHeight="170dp"
+                android:padding="10dp"
+                android:text="@string/description"
+                android:textColor="#09A2AB"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/taskPriority"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:maxHeight="170dp"
+                android:padding="10dp"
+                android:text="@string/priority"
+                android:textColor="#09A2AB"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvTaskDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:maxHeight="170dp"
+                android:padding="10dp"
+                android:text="@string/priority"
+                android:textColor="#09A2AB"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

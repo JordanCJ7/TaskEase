@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TaskEase</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appName">TaskEase</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="enter_task_name">Enter Task Name</string>
+    <string name="enter_the_description">Enter Description</string>
+    <string name="select_deadline">Select Deadline</string>
+    <string name="add_your_task">Add Your Task</string>
+    <string name="tasks">Task</string>
+    <string name="task_name">Task Name</string>
+    <string name="description">Description</string>
+    <string name="priority">Priority</string>
+    <string name="deadline">Deadline</string>
+    <string name="onboarding_screen_heading">Create tasks and keep being updated</string>
+    <string name="onboarding_screen_description">This task manager allows you to make tasks and projects and help you to manage them</string>
+    <string name="next">Next</string>
+</resources>
